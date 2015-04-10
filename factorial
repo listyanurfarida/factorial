@@ -1,0 +1,28 @@
+package factorial;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Praktikum
+ */
+public class Factorial {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Bilangan Factorial");
+        System.out.println("Masukkan bilangan : ");
+        int n = scan.nextInt();
+		
+        n2 = n-1;
+        
+        for(int i=n-1; i<n; i--){
+           n=n*i;
+        
+    }
+    
+}
